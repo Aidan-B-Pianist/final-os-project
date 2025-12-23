@@ -15,7 +15,7 @@ This project uses a bounded-range heuristic to estimate an effective time quantu
 - Compute an **upper bound** as:
 
     $$
-    \text{Upper Bound} = \frac{\text{mean_burst} + \text{max_burst}}{2}
+    \text{Limit Range} = \frac{\text{mean burst} + \text{max burst}}{2}
     $$
 
 

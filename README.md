@@ -14,9 +14,10 @@ This project uses a bounded-range heuristic to estimate an effective time quantu
 
 - Compute an **upper bound** as:
 
-  \[
-  \text{Upper Bound} = \frac{\text{mean\_burst} + \text{max\_burst}}{2}
-  \]
+    $$
+    \text{Upper Bound} = \frac{\text{mean_burst} + \text{max_burst}}{2}
+    $$
+
 
 This upper bound helps generate more effective (near-optimal) time slices compared to selecting a random quantum or relying on user-defined values.
 

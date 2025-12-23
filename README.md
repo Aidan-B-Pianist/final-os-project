@@ -18,7 +18,6 @@ This project uses a bounded-range heuristic to estimate an effective time quantu
     \text{Limit Range} = \frac{\text{mean burst} + \text{max burst}}{2}
     $$
 
-
 This upper bound helps generate more effective (near-optimal) time slices compared to selecting a random quantum or relying on user-defined values.
 
 ## How to Run
